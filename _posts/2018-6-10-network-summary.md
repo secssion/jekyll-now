@@ -39,10 +39,13 @@ TPC/IP通常被认定成一个四层协议系统，如图
 
 ### ip数据包格式
 ![ip]({{ site.baseurl }}/images/ip.png)
+
 ### TCP数据包格式
-![TCP]({{ site.baseurl }}/images/TCP.png)
+![TCP]({{ site.baseurl }}/images/tcp.png)
+
 ### UDP数据包格式
 ![UDP]({{ site.baseurl }}/images/udp.png)
+
 ### 三次握手
 ![connect]({{ "/css/pics/connect.png"}}) 
    * 同步SYN ：在连接建立时用来同步序号。当SYN = 1 而 ACK = 0 时表明这是一个连接请求。对方如果同意建立连接，在响应报文中 ACK = 1 SYN = 1。
