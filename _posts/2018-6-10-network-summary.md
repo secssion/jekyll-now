@@ -47,7 +47,8 @@ TPC/IP通常被认定成一个四层协议系统，如图
 ![UDP]({{ site.baseurl }}/images/udp.png)
 
 ### 三次握手
-![connect]({{ "/css/pics/connect.png"}}) 
+![connect]({{ site.baseurl }}/images/connect.png}) 
+
    * 同步SYN ：在连接建立时用来同步序号。当SYN = 1 而 ACK = 0 时表明这是一个连接请求。对方如果同意建立连接，在响应报文中 ACK = 1 SYN = 1。
 
    * ack 确认号：是期望收到对方下一个报文段中的第一个数据字节序的序号。
